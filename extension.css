@@ -1,0 +1,41 @@
+/* external file  */
+input{
+    height: 20px;
+    border-radius: 10px;
+    border-color: blue;
+    font-size: 18;
+}
+button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(138, 199, 46);
+}
+h1{
+    color: navy;
+}
+.container{
+    background-color: rgb(224, 152, 201);
+    border: 2px black solid;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+label{
+    color: darkblue;
+    font-size: 20px;
+}
